@@ -1,0 +1,140 @@
+basics:
+  name: James C Craven
+  label: Software Developer/Data Scientist
+  image: ""
+  email: 4jamesccraven@gmail.com
+  phone: (803) 374-9529
+  url: ""
+  summary: ""
+  location:
+    address: 2135 Coumbia Rd
+    postalCode: '29014'
+    city: Blackstock
+    region: South Carolina
+  profiles:
+  - network: GitHub
+    username: 4jamesccraven
+    url: https://github.com/4jamesccraven
+  - network: Linkedin
+    username: James Craven
+    url: https://www.linkedin.com/in/james-craven-7968a8324/
+work:
+- name: ADAPT in SC
+  position: Research Assistant
+  url: https://github.com/4jamesccraven/dsci-research-for-ADAPT-in-SC
+  startDate: May 2024
+  endDate: June 2024
+  summary: Research focused on improving the design of dopamine sensors using deep learning and other machine learning techniques
+  highlights:
+  - pandas
+  - scikit-learn
+  - matplotlib
+- name: Winthrop University User Support Services
+  position: Student Technician
+  startDate: August 2023
+  endDate: June 2024
+  summary: Role providing support to winthrop faculty in resolving a variety of technical issues, software and hardware
+  highlights:
+    - sysaid
+    - computer image deployment
+- name: Winthrop University Department of World Languages and Cultures
+  position: Spanish Tutor/Lab Assistant
+  startDate: January 2022
+  endDate: December 2022
+  summary: Tutoring position providing assistance with novice to advanced grammatical concepts and assignments
+education:
+- institution: Winthrop University
+  url: https://winthrop.edu
+  area: Data Science & Spanish (Double Major)
+  studyType: Bachelor
+  startDate: August 2021
+  endDate: May 2025
+  score: '4.0'
+  courses:
+  - Machine Learning
+  - Data Structures & Algorithms
+  - Database Processing
+  - Statistical Methods
+  - Data Mining
+awards:
+- title: President's Award for Academic Excellence
+  date: May 10th, 2025
+  awarder: Winthrop University
+  summary: Awarded for perfect GPA
+  url: https://apps.winthrop.edu/gradlist/help
+- title: Division II State Spanish Champion
+  date: '2020'
+  awarder: National Beta Club
+  summary: Awarded for highest score in the Spanish Competition for the 2019-2020 Beta Club SC Convention
+  url: https://www.betaclub.org/state-conventions/
+certificates:
+- name: ACFTL OPI (Advanced Mid)
+  date: April 15th, 2025
+  issuer: American Council on the Teaching of Foreign Languages
+  summary: End-of-major Spanish oral proficiency exam
+  url: https://www.actfl.org/assessments/postsecondary-assessments/opi
+skills:
+- name: Operating Systems
+  keywords:
+  - Linux (Debian-, Red Hat-, and Arch-based)
+  - Windows
+  - MacOS (limited)
+- name: Languages
+  keywords:
+  - Python
+  - Rust
+  - C++
+  - Golang (limited)
+  - Java (limited)
+  - JavaScript (limited)
+  - Nix
+  - Lua
+  - R
+- name: Libraries
+  keywords:
+  - 'Data Science: tensorflow, scikit-learn, numpy, pandas, matplotlib/seaborn, etc.);'
+  - 'Web Development: JQuery, Flask;'
+  - 'Graphics/Rendering: SDL, ncurses;'
+- name: Other Skills
+  keywords:
+  - git
+  - bash/zsh
+  - ssh
+languages:
+- language: English
+  fluency: native speaker
+- language: Spanish
+  fluency: fluent
+interests:
+- name: NixOS
+  keywords:
+  - Linux
+  - DevOPs
+- name: neovim
+  keywords:
+  - IDE
+  - CLI Tool
+- name: Linguistics
+  keywords:
+  - Phonetics
+  - Etymology
+projects:
+- name: mkdev
+  startDate: June 6th, 2024
+  endDate: present
+  description: A configurable command-line tool to deploy templated plaintext files, intended to lessen the burden of boilerplate when starting a project. Sole author.
+  highlights:
+  - Handled user submitted issues to improve and fix the application
+  - Deployed to crates.io and the Arch Linux User Repository, packaged for the Nix build system
+  - Used continuous integration to build binaries on major releases
+  - Written in Rust
+  url: https://github.com/4jamesccraven/mkdev
+- name: tldr
+  startDate: May 15th, 2025
+  endDate: present
+  description: Collaborative cheatsheets for console commands; essentially simplified man pages. Contributed Spanish translations for certain commands.
+  highlights:
+  - Created GitHub pull requests
+  - Worked with other contributers
+  - Used continuous integration and documentation to properly conform to the project's standards
+  url: https://github.com/tldr-pages/tldr

@@ -32,6 +32,7 @@ jobs:
       - name: Build Resume
         run: |
           reumes ./resume.yml -t pdf
+          reumes ./release.yml -t markdown
 
       - name: Create Tag Name
         id: time
@@ -42,6 +43,6 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "./Resume.pdf"
+          artifacts: "./Resume.pdf,./Resume.md"
           name: "Resume"
           tag: "${{ steps.time.outputs.time }}"

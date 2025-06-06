@@ -20,7 +20,7 @@ basics:
     url: https://www.linkedin.com/in/james-craven-7968a8324/
 work:
 - name: ADAPT in SC
-  position: Research Assistant
+  position: Data Science Research Assistant
   url: https://github.com/4jamesccraven/dsci-research-for-ADAPT-in-SC
   startDate: May 2024
   endDate: June 2024
@@ -90,11 +90,21 @@ skills:
   - Nix
   - Lua
   - R
-- name: Libraries
+- name: Data Science
   keywords:
-  - 'Data Science: tensorflow, scikit-learn, numpy, pandas, matplotlib/seaborn, etc.);'
-  - 'Web Development: JQuery, Flask;'
-  - 'Graphics/Rendering: SDL, ncurses;'
+  - tensorflow
+  - scikit-learn
+  - numpy
+  - pandas
+  - matplotlib/seaborn
+- name: Web Development
+  keywords:
+  - JQuery
+  - Flask
+- name: Graphics/Rendering
+  keywords:
+  - SDL
+  - ncurses
 - name: Other Skills
   keywords:
   - git
@@ -110,7 +120,7 @@ interests:
   keywords:
   - Linux
   - DevOPs
-- name: neovim
+- name: Neovim
   keywords:
   - IDE
   - CLI Tool
@@ -118,6 +128,13 @@ interests:
   keywords:
   - Phonetics
   - Etymology
+- name: Gaming
+  keywords:
+  - Warframe
+  - Minecraft
+- name: Piano
+  keywords:
+  - Classical Music
 projects:
 - name: mkdev
   startDate: June 6th, 2024

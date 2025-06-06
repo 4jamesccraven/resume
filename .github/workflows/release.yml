@@ -32,7 +32,7 @@ jobs:
       - name: Build Resume
         run: |
           reumes ./resume.yml -t pdf
-          reumes ./release.yml -t markdown
+          reumes ./resume.yml -t markdown
 
       - name: Create Tag Name
         id: time

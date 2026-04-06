@@ -4,45 +4,37 @@ on:
   push:
     branches:
       - main
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.24'
-
-      - name: Install reumes
-        run: |
-          git clone https://github.com/4jamesccraven/reumes.git
-          cd reumes
-          go build -o /usr/local/bin/reumes
-          cd ..
-
       - name: Install Typst
-        uses: typst-community/setup-typst@v4
+        uses: typst-community/setup-typst@v5
 
-      - name: Build Resume
+      - name: Build all formats
         run: |
-          reumes ./resume.yml -t pdf
-          reumes ./resume.yml -t markdown
+          mkdir dist
+          for fmt in pdf svg png; do
+            typst compile resume.typ "dist/resume.$fmt"
+          done
 
-      - name: Create Tag Name
-        id: time
-        uses: nanzm/get-time-action@v1.1
-        with:
-          format: 'MMDDYYYYHHmmss'
+      - name: Generate tag name
+        id: tag
+        run: echo "name=$(date +'%m%d%Y%H%M%S')" >> "$GITHUB_OUTPUT"
 
-      - name: Create Release
+      - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "./Resume.pdf,./Resume.md"
+          artifacts: "dist/*"
           name: "Resume"
-          tag: "${{ steps.time.outputs.time }}"
+          tag: ${{ steps.tag.outputs.name }}
+          commit: main

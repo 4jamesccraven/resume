@@ -1,5 +1,6 @@
-## Resume
+Resume
+------
+My resume. See releases for a copy of a built artifact in pdf, svg, or png
+format.
 
-This builds my resume using the data file in this repo and my custom resume generator, [reumes](https://github.com/4jamesccraven/reumes).
-
-The implementation for the CI was partially inspired by [this repo](https://github.com/t-v/resume).
+Built with [typst](https://typst.app/) <3

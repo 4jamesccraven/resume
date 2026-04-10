@@ -1,6 +1,6 @@
 = James C Craven
-*Email*: 4jamesccraven\@gmail.com | *Phone Number*: +1 (803) 374-9529
-#linebreak()*GitHub*: https://github.com/4jamesccraven | *LinkedIn*: https://linkedin.com/in/4jamesccraven/
+*Email*: 4jamesccraven\@gmail.com | *Phone Number*: +1 (803) 374-9529#linebreak()
+*GitHub*: https://github.com/4jamesccraven | *LinkedIn*: https://linkedin.com/in/4jamesccraven/
 #linebreak()*Native* English | *Fluent* Spanish _(ACTFL OPI: Advanced Mid)_
 
 Software developer and IT professional with hands-on experience in systems
@@ -22,11 +22,9 @@ environment tool.
 June 6th, 2024--Present#linebreak()
 _https://github.com/4jamesccraven/mkdev _ | _https://crates.io/crates/mkdev _
 
-
-A full-featured CLI tool for managing and deploying project templates, with
-interactive menus, variable substitution, shell completions, man page
-generation, and i18n support across 8 locales. Published to crates.io and
-packaged for Nix and the AUR.
+A fully-featured CLI tool published to crates.io and packaged for Nix and the
+AUR, with shell completions, man page generation, and i18n support across 8
+locales.
 
 == Experience
 #line(length: 100%)
@@ -47,10 +45,12 @@ Winthrop University, Rock Hill, SC | Aug 2021--May 2025 | GPA: 4.0
 
 == Skills
 #line(length: 100%)
-=== Operating Systems
-Linux (Debian-, Red Hat-, and Arch-based) | Windows | MacOS (limited)
-
 === Languages
-- *High Proficiency*: Rust | Python | Nix | Bash/sh
-- *Proficient*: C++ | Lua | JavaScript
-- *Used, but infrequently*: C\# | Golang | Java | R
+- *Python* -- scripting, automation, data science
+- *Rust* -- production library development, CLI tooling, crates.io publication
+- *Other (frequent use)*: Nix | Bash/sh | C++ | Lua | JavaScript
+- *Other (infrequent use)*: C\# | Golang | Java | R
+
+=== Other Skills
+- *Operating Systems*: Linux (high familiarity---all major distros) | Windows | MacOS (limited)
+- *Misc.*: git (high familiarity) | build systems (Makefile, cargo, setuptools/pyproject)

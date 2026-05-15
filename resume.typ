@@ -8,6 +8,18 @@ support and production Rust software, including published open-source libraries
 and CLI tools. Holds a B.A. in Data Science from Winthrop University with a 4.0
 GPA.
 
+== Experience
+#line(length: 100%)
+=== IT Support Technician
+Winthrop University User Support Services#linebreak()
+_August 2023--Jun 2024_
+- Resolved a high variety of hardware and software support tickets including
+  malware remediation, software installation, printer configuration, and
+  classroom AV system maintenance
+- Assisted with lab hardware refresh projects including workstation replacement,
+  drive sanitisation (DBAN), and PXE-based OS imaging across university computer
+  labs
+
 == Projects
 #line(length: 100%)
 === ser_nix
@@ -25,18 +37,6 @@ _https://github.com/4jamesccraven/mkdev _ | _https://crates.io/crates/mkdev _
 A fully-featured CLI tool published to crates.io and packaged for Nix and the
 AUR, with shell completions, man page generation, and i18n support across 8
 locales.
-
-== Experience
-#line(length: 100%)
-=== IT Support Technician
-Winthrop University User Support Services#linebreak()
-_August 2023--Jun 2024_
-- Resolved a high variety of hardware and software support tickets including
-  malware remediation, software installation, printer configuration, and
-  classroom AV system maintenance
-- Assisted with lab hardware refresh projects including workstation replacement,
-  drive sanitisation (DBAN), and PXE-based OS imaging across university computer
-  labs
 
 == Education
 #line(length: 100%)

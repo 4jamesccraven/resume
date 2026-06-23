@@ -23,8 +23,10 @@ jobs:
       - name: Build all formats
         run: |
           mkdir dist
-          for fmt in pdf svg png; do
-            typst compile resume.typ "dist/resume.$fmt"
+          for file in *.typ; do
+            for fmt in pdf svg png; do
+              typst compile "$file" "dist/${file%.*}.$fmt"
+            done
           done
 
       - name: Generate tag name
